@@ -12,3 +12,16 @@ Remember that if you want to assert copyright, it's a good practice to specify t
 #██║  ██║███████║███████╗██║  ██║
 #╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝
 #                   by - hakeraseraslan
+
+
+
+
+
+
+
+
+
+
+
+REQUIREMENTS
+nothing
