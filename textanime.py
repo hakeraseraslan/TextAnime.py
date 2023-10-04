@@ -1,0 +1,25 @@
+import pyfiglet
+
+def print_banner():
+    banner = """
+ █████╗ ███████╗███████╗██████╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗
+███████║███████╗█████╗  ██████╔╝
+██╔══██║╚════██║██╔══╝  ██╔══██╗
+██║  ██║███████║███████╗██║  ██║
+╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝
+    """
+    print(banner)
+
+def generate_ascii_art(text):
+    try:
+        print_banner()
+        custom_fig = pyfiglet.Figlet(font='slant')
+        ascii_art = custom_fig.renderText(text)
+        print(ascii_art)
+    except Exception as e:
+        print("An error occurred:", e)
+
+if __name__ == "__main__":
+    user_input = input("Enter the text you want to convert to ASCII art: ")
+    generate_ascii_art(user_input)
